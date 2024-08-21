@@ -1,12 +1,16 @@
 
 
-
+import Coffee from "./Coffee"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-   <h1>Chai aur react with vite | Akash</h1>
+    <> // this known as fragment but jsx not allowed more than one tag
+   <Coffee/>
+   <h1>Chai aur code</h1>
+   <p>test paragraph</p>
+   </>
   );
 }
 
