@@ -12,10 +12,12 @@ function App() {
   const addValue = ()=>{
     console.log("value cliked", counter)
     // counter = counter + 1 
+    setCounter(prevCounter=>prevCounter + 1)
+    setCounter(prevCounter=>prevCounter + 1)
+    setCounter(prevCounter=>prevCounter + 1)
+    setCounter(prevCounter=>prevCounter + 1)
     
-    if (counter < 10) {
-      setCounter(counter + 1)
-    }
+   
   }
 
   const removeValue = ()=>{
